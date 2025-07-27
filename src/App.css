@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+html, body, #root {
+  height: 100%;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url('https://www.transparenttextures.com/patterns/food.png');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container-flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  min-height: 100vh; /* Ensure it takes at least full viewport height */
+}
+
+main {
+  flex-grow: 1;
+  padding-top: 20px; /* Add some padding to the top of the main content */
+  padding-bottom: 20px; /* Add some padding to the bottom of the main content */
+  
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #343a40;
   color: white;
+  padding: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #ef6800;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: #d65c00;
 }
