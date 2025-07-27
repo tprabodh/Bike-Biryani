@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Bike-Biryani/static/css/main.070316ef.css",
+    "main.js": "/Bike-Biryani/static/js/main.69b5d6a7.js",
+    "static/js/453.d3f17eea.chunk.js": "/Bike-Biryani/static/js/453.d3f17eea.chunk.js",
+    "index.html": "/Bike-Biryani/index.html",
+    "main.070316ef.css.map": "/Bike-Biryani/static/css/main.070316ef.css.map",
+    "main.69b5d6a7.js.map": "/Bike-Biryani/static/js/main.69b5d6a7.js.map",
+    "453.d3f17eea.chunk.js.map": "/Bike-Biryani/static/js/453.d3f17eea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.070316ef.css",
+    "static/js/main.69b5d6a7.js"
+  ]
+}
