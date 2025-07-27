@@ -1,6 +1,7 @@
 {
   "name": "bike-biryani-website",
   "version": "0.1.0",
+    "homepage": "https://tprabodh.github.io/Bike-Biryani", 
   "private": true,
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
@@ -19,7 +20,10 @@
     "react-router-dom": "^7.7.1",
     "react-scripts": "5.0.1",
     "tailwindcss": "^4.1.11",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+     "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build" 
+
   },
   "scripts": {
     "tailwind:build": "tailwindcss -i ./src/index.css -o ./src/output.css",
@@ -48,6 +52,7 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.16"
+    "@tailwindcss/typography": "^0.5.16",
+    "gh-pages": "^6.3.0"
   }
 }
