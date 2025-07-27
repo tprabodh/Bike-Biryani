@@ -26,39 +26,15 @@ const HomePage = () => {
           </Fade>
         </div>
         
-        {/* Floating Biryani Container */}
-        <Fade direction="left" delay={300} triggerOnce>
-          {/* Adjusted positioning for mobile: less extreme right/bottom, smaller size */}
-          <div className="absolute right-4 bottom-4 md:right-20 md:bottom-20 z-50"> 
-            <div className="relative">
-              {/* Adjusted size of the pulsing circle for mobile */}
-              <div className="w-32 h-32 md:w-48 md:h-48 bg-amber-400 rounded-full absolute -top-4 -left-4 md:-top-6 md:-left-6 -z-10 animate-pulse"></div>
-              {/* Adjusted width of the biryani card for mobile */}
-              <div className="bg-white rounded-2xl shadow-xl p-4 w-60 md:p-6 md:w-72">
-                <div className="flex items-center mb-4">
-                  <img 
-                    src="https://firebasestorage.googleapis.com/v0/b/biryani-break.firebasestorage.app/o/images%2Fmenu_items%2Fimages.jpeg?alt=media&token=2d150842-5af8-4959-bb36-376257541397" 
-                    alt="Chicken Biryani" 
-                    className="w-12 h-12 md:w-16 md:h-16 rounded-xl object-cover flex-shrink-0" 
-                  />
-                  <div className="ml-3 md:ml-4">
-                    <h3 className="font-bold text-gray-900 text-base md:text-lg">Chicken Biryani</h3>
-                  </div>
-                </div>
-                <div className="bg-gradient-to-r from-amber-500 to-orange-600 rounded-full py-2 px-4 text-white text-center font-bold text-sm md:text-base">
-                  Only ₹149
-                </div>
-              </div>
-            </div>
-          </div>
-        </Fade>
+        {/* Removed Floating Biryani Container */}
       </div>
 
       {/* Mission Section */}
       <section className="py-12 md:py-20 bg-gradient-to-r from-amber-100 to-orange-50"> {/* Adjusted vertical padding */}
         <div className="container mx-auto px-4">
           <Fade direction="up" triggerOnce>
-            <div className="max-w-4xl mx-auto text-center bg-white rounded-2xl shadow-lg p-6 md:p-12 relative"> {/* Adjusted padding */}
+            {/* Increased padding-top for mobile to prevent icon overlap */}
+            <div className="max-w-4xl mx-auto text-center bg-white rounded-2xl shadow-lg p-6 pt-12 md:p-12 md:pt-12 relative"> 
               <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-amber-500 text-white rounded-full p-4">
                 <FaRocket className="text-2xl" />
               </div>
@@ -154,7 +130,7 @@ const HomePage = () => {
                 title: "Power Eggs", 
                 desc: "2 eggs with spicy masala", 
                 price: "₹79", 
-                imageUrl: "https://firebasestorage.googleapis.2.0-flash.appspot.com/v0/b/biryani-break.appspot.com/o/images%2Fmenu_items%2Fpower%20eggs.jpg?alt=media&token=aff740d5-4cfa-44cf-a114-a6575d807cab" 
+                imageUrl: "https://firebasestorage.googleapis.com/v0/b/biryani-break.firebasestorage.app/o/images%2Fmenu_items%2Fpower%20eggs.jpg?alt=media&token=aff740d5-4cfa-44cf-a114-a6575d807cab" 
               },
             ].map((item, index) => (
               <Fade direction="up" delay={index * 100} triggerOnce key={index}>
