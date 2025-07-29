@@ -1,7 +1,7 @@
 {
   "name": "bike-biryani-website",
   "version": "0.1.0",
-  "homepage": ".",
+  
   "private": true,
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",
