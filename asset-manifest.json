@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Bike-Biryani/static/css/main.be8cb7da.css",
-    "main.js": "/Bike-Biryani/static/js/main.992fc485.js",
-    "static/js/453.d3f17eea.chunk.js": "/Bike-Biryani/static/js/453.d3f17eea.chunk.js",
-    "index.html": "/Bike-Biryani/index.html",
-    "main.be8cb7da.css.map": "/Bike-Biryani/static/css/main.be8cb7da.css.map",
-    "main.992fc485.js.map": "/Bike-Biryani/static/js/main.992fc485.js.map",
-    "453.d3f17eea.chunk.js.map": "/Bike-Biryani/static/js/453.d3f17eea.chunk.js.map"
+    "main.css": "./static/css/main.736f91de.css",
+    "main.js": "./static/js/main.6e4bb865.js",
+    "static/js/453.d3f17eea.chunk.js": "./static/js/453.d3f17eea.chunk.js",
+    "index.html": "./index.html",
+    "main.736f91de.css.map": "./static/css/main.736f91de.css.map",
+    "main.6e4bb865.js.map": "./static/js/main.6e4bb865.js.map",
+    "453.d3f17eea.chunk.js.map": "./static/js/453.d3f17eea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be8cb7da.css",
-    "static/js/main.992fc485.js"
+    "static/css/main.736f91de.css",
+    "static/js/main.6e4bb865.js"
   ]
 }
