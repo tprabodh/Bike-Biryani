@@ -35,7 +35,7 @@ const TermsAndConditions = () => {
           <p>Bike Biryani shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data, or other intangible losses, resulting from the use or inability to use the Service.</p>
 
           <h2>9. Governing Law</h2>
-          <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where Bike Biryani operates, under the regulations and guidelines set forth by Yasaswy Universal, without regard to its conflict of law provisions.</p>
+          <p>These Terms shall be governed by and construed in accordance with the laws of the jurisdiction where Bike Biryani operates, under the regulations and guidelines set forth by Oxysmart Private Limited, without regard to its conflict of law provisions.</p>
 
           <h2>10. Changes to Terms</h2>
           <p>Bike Biryani reserves the right to modify these Terms at any time. Your continued use of the Service after any such changes constitutes your acceptance of the new Terms.</p>
@@ -48,22 +48,78 @@ const TermsAndConditions = () => {
       content: (
         <>
           <h2>1. Information We Collect</h2>
-          <p>We collect personal information such as your name, email address, phone number, delivery address, and payment details when you register and place orders. We also collect non-personal information like device information and usage data.</p>
+          <div style={{border: '2px solid #ff0000', padding: '10px', borderRadius: '5px', marginBottom: '20px'}}>
+              <h3 style={{color: '#ff0000', fontWeight: 'bold'}}>Prominent Disclosure: Location Data Collection</h3>
+              <p><strong>Our app collects location data to enable core features, even when the app is closed or not in use.</strong></p>
+              <p>We collect the following types of location data:</p>
+              <ul>
+                  <li><strong>Precise Location Data:</strong> We collect precise location data from your device when the app is in the foreground and background.</li>
+                  <li><strong>Background Location Data:</strong> We collect location data in the background to track the real-time location of our delivery vendors. This is a core feature of our app and is essential for our customers to track their orders.</li>
+              </ul>
+              <p><strong>Why we collect this data:</strong></p>
+              <ul>
+                  <li>To show the vendor’s live, real-time location to customers during active orders.</li>
+                  <li>To improve delivery accuracy and service efficiency.</li>
+                  <li>To provide route optimization, analytics, and fraud prevention.</li>
+              </ul>
+          </div>
+          <p>We collect the following types of information:</p>
+          <ul>
+            <li><strong>Personal Information:</strong> Name, email address, phone number, delivery address, and payment details when you register or place orders.</li>
+            <li><strong>Non-Personal Information:</strong> Device information (such as model, operating system, unique device identifiers) and app usage data.</li>
+            <li><strong>Location Information (Very Important):</strong>
+              <ul>
+                <li>We collect precise location data from vendors’ devices, including foreground and background location.</li>
+                <li>Background Location is collected even when the app is closed or not in active use.</li>
+                <li>Location data is used strictly for the following purposes:
+                  <ul>
+                    <li>To show the vendor’s live, real-time location to customers during active orders.</li>
+                    <li>To improve delivery accuracy and service efficiency.</li>
+                    <li>To provide route optimization, analytics, and fraud prevention.</li>
+                  </ul>
+                </li>
+                <li>Location information from customers’ devices may also be collected (if permissions are granted) to:
+                  <ul>
+                    <li>Detect service availability in their area.</li>
+                    <li>Suggest nearby vendors and delivery options.</li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
 
           <h2>2. How We Use Your Information</h2>
-          <p>We use your information to process your orders, deliver food, improve our services, personalize your experience, and communicate with you about promotions and updates. We may also use aggregated data for analytical purposes.</p>
+          <p>We use the collected information to:</p>
+          <ul>
+            <li>Process and deliver orders.</li>
+            <li>Display vendors’ live locations to customers for transparency.</li>
+            <li>Improve delivery operations and service efficiency.</li>
+            <li>Communicate updates, offers, and support messages.</li>
+            <li>Perform analytics to enhance app performance and safety.</li>
+          </ul>
 
           <h2>3. Information Sharing</h2>
-          <p>We may share your information with restaurants to fulfill your orders and with third-party service providers (e.g., payment processors, delivery partners) to facilitate our services. We do not sell your personal information to third parties.</p>
+          <p>We may share your information with:</p>
+          <ul>
+            <li>Restaurants/vendors to prepare and fulfill your order.</li>
+            <li>Third-party service providers (e.g., payment processors, map and location services) to facilitate our services.</li>
+            <li>Customers, who can view the vendor’s real-time location only during active orders.</li>
+          </ul>
+          <p>We do not sell your personal data to third parties.</p>
 
           <h2>4. Data Security</h2>
           <p>We implement reasonable security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the internet or electronic storage is 100% secure.</p>
 
           <h2>5. Your Choices</h2>
-          <p>You can access, update, or delete your personal information through your account settings. You may also opt-out of receiving promotional communications from us.</p>
+          <p>You have the following choices regarding your information:</p>
+          <ul>
+            <li>You can update or delete your account details via the app.</li>
+            <li>You can disable or adjust location permissions at any time in your device settings. Note: Disabling location access will prevent us from providing live vendor tracking and may affect service availability.</li>
+            <li>You may opt out of promotional communications at any time.</li>
+          </ul>
 
           <h2>6. Cookies</h2>
-          <p>We use cookies and similar tracking technologies to enhance your Browse experience, analyze site usage, and personalize content. You can control cookie preferences through your browser settings.</p>
+          <p>We use cookies and similar tracking technologies to enhance your browsing experience, analyze site usage, and personalize content. You can control cookie preferences through your browser settings.</p>
 
           <h2>7. Children's Privacy</h2>
           <p>Our Service is not intended for individuals under the age of 13. We do not knowingly collect personal information from children under 13. If we become aware that a child under 13 has provided us with personal information, we will take steps to delete such information.</p>

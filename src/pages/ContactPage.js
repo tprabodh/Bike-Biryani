@@ -23,10 +23,10 @@ const ContactPage = () => {
           <h3 className="text-2xl font-bold text-gray-800 mb-3">Email</h3>
           <p className="text-gray-600 mb-4">Drop us a message anytime</p>
           <a 
-            href="mailto:prabodhteja1@gmail.com" 
+            href="mailto:care@bikebiryani.com" 
             className="text-[#ef6800] font-medium text-lg hover:underline"
           >
-            prabodhteja1@gmail.com
+            care@bikebiryani.com
           </a>
         </div>
 
@@ -38,10 +38,10 @@ const ContactPage = () => {
           <h3 className="text-2xl font-bold text-gray-800 mb-3">Phone</h3>
           <p className="text-gray-600 mb-4">Call us during business hours</p>
           <a 
-            href="tel:+918074352660" 
+            href="tel:+918971765469" 
             className="text-[#ef6800] font-medium text-lg hover:underline"
           >
-            +91 8074352660
+            +91 8971765469
           </a>
         </div>
 
@@ -52,9 +52,7 @@ const ContactPage = () => {
           </div>
           <h3 className="text-2xl font-bold text-gray-800 mb-3">Visit Us</h3>
           <p className="text-gray-600">
-            No.324, Ground Floor, 8th Cross Rd, Phase-1, MCECHS Layout, 
-            Dr.Shivaram Karanth Nagar, RK Hegde Nagar, 
-            Bengaluru, Karnataka 560077
+            Yasaswy Universal, No.324, Ground Floor, 8th Cross Rd, MCECHS Layout Phase-1, Dr. Shivaram Karanth Nagar, Bengaluru, Karnataka 560077
           </p>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function AboutPage() {
             About <span className="text-amber-300">Bike</span> Biryani
           </h1>
           <p className="text-xl text-amber-100 max-w-2xl mx-auto">
-            Pedaling passion, delivering flavor — one biryani at a time
+            Delicious, fresh biryani delivered to your doorstep by bike – made with care and served with a smile. Our goal: A happy customer every time!
           </p>
         </div>
       </header>
@@ -27,7 +27,7 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="w-80 h-80 bg-amber-400 rounded-full absolute -top-6 -left-6 -z-10"></div>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/biryani-break.firebasestorage.app/o/logos%2FY%20(6).png?alt=media&token=2dd5245c-26df-4336-8bd9-55f81e244f68"
+                  src="https://firebasestorage.googleapis.com/v0/b/biryani-break.firebasestorage.app/o/logos%2FOS.png?alt=media&token=713b630b-a3f2-4ebe-a3dd-d6ac21d6638b"
                   alt="Our Vision"
                   className="rounded-2xl shadow-xl w-full max-w-md object-cover h-96"
                 />
@@ -43,13 +43,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 text-gray-700">
                 <p className="text-lg">
-                  Welcome to <span className="font-semibold text-amber-600">Bike Biryani</span>, where passion meets flavor on two wheels! We’re dedicated to bringing authentic, aromatic biryani to your doorstep with speed and care.
+                  Welcome to <span className="font-semibold text-amber-600">Bike Biryani</span>, where passion meets flavour on two wheels We’re dedicated to bringing authentic, aromatic biryani to your doorstep with speed and care.
                 </p>
                 <p className="text-lg">
                   Founded by food enthusiasts who noticed a gap in quality delivery options, we set out to create a service that prioritizes both taste and convenience. Our journey began with a simple mission: to make exceptional biryani accessible to everyone in the city.
                 </p>
                 <p className="text-lg">
-                  As a proud division of <span className="font-bold text-amber-700">Yasaswy Universal</span>, we combine culinary excellence with innovative delivery solutions. Our fleet of dedicated riders ensures your biryani arrives hot, fresh, and full of flavor.
+                  As a proud division of <span className="font-bold text-amber-700">Oxysmart Private Limited</span>, we combine culinary excellence with innovative delivery solutions. Our fleet of dedicated riders ensures your biryani arrives hot, fresh, and full of flavour.
                 </p>
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function AboutPage() {
                 Join Us
               </div>
               <h2 className="text-4xl font-bold text-white mb-6">
-                Be Part of Our Flavorful Journey
+                Be Part of Our Flavourful Journey
               </h2>
               <p className="text-xl text-amber-100 mb-10 max-w-2xl mx-auto">
                 We're constantly evolving, expanding our menu, and reaching more food lovers across the city. Your support fuels our passion!
@@ -156,7 +156,7 @@ export default function AboutPage() {
 
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <a
-                  href="/contact"
+                  href="#/contact"
                   className="px-8 py-4 bg-white text-amber-900 font-bold rounded-full shadow-lg hover:bg-amber-100 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   <svg
@@ -170,7 +170,7 @@ export default function AboutPage() {
                   Contact Us
                 </a>
                 <a
-                  href="/join"
+                  href="#/join"
                   className="px-8 py-4 bg-amber-500 text-white font-bold rounded-full shadow-lg hover:bg-amber-600 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   <svg
@@ -190,7 +190,7 @@ export default function AboutPage() {
               </div>
 
               <p className="text-amber-200 mt-10">
-                For partnerships, feedback, or career opportunities, we'd love to hear from you!
+                For partnerships, feedback, or career opportunities, we'd love to hear from you.
               </p>
             </div>
           </section>

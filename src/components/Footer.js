@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row className="py-3">
           <Col md={4} className="text-center text-md-start">
-            <p>&copy; {new Date().getFullYear()} Bike Biryani | A Division of Yasaswy Universal</p>
+            <p>&copy; {new Date().getFullYear()} Bike Biryani | By Oxysmart private limited</p>
           </Col>
           <Col md={4} className="text-center">
             <h5>Quick Links</h5>

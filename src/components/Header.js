@@ -2,7 +2,6 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import { FaMotorcycle } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand className="font-bold">
-              <FaMotorcycle /> Bike Biryani
+              <img src="/Biryani (1).png" alt="Bike Biryani Logo" style={{ height: '68px', marginRight: '20px' }} />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
